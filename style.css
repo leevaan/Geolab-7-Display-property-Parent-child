@@ -26,6 +26,7 @@ section{
     background-color: rgb(13, 13, 172);
     margin-top: 2%;
     border: 2px solid rgb(103, 103, 255);
+    position: relative;
 }
 .white-box{
     background-color: white;
@@ -49,4 +50,17 @@ section{
     left: 50%;
     transform: translate( -50%, -50%);
     color: white;
+}
+section h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+h4{
+    position: absolute;
+    top: 0.5%;
+    left: 50%;
+    transform: translate(-50%, 0.5%);
 }
